@@ -1,0 +1,27 @@
+{
+  "name": "bower",
+  "version": "1",
+  "homepage": "https://github.com/RohitGaikwad/ecom",
+  "authors": [
+    "RohitGaikwad <rohitgaikwad3991@gmail.com>"
+  ],
+  "description": "initial dependecies",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~1.0.1",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "animate.css": "~3.5.0",
+    "jquery": "~2.1.4"
+  }
+}
