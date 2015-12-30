@@ -1,5 +1,91 @@
 
+*{
+/*
+    font-family: 'Poiret One', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+*/
+    font-family: 'Raleway', sans-serif;
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+*/
 
+    letter-spacing: 0.3px;
+*/
+}
 .main-footer{
+    background-color: #ccc;
+}
+.footer-banner {
+    min-height: 250px;
+    padding: 0 30px 30px;
+    margin-left: 42px;
+    color: #d1f2eb;
+    background-color: #f87413;
+}
+.footer-title{
+margin-top:0px;
+padding:10px;
+}
+.main-header .logo img{
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.cart-sign{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+.main-header .menu{
+    margin:0px;
+}
+.main-header .menu li{
+    display:inline-block;
+    padding:10px
+}
+.main-header .menu li:hover{
+    background-color: #f0f0f0;
+}
+.main-header .menu li a{
+    color:#141414;
+}
+.main-header .menu li.active a{
+    color: #184F99;
+    font-weight: bold;
+}
 
+.menu-bar{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }

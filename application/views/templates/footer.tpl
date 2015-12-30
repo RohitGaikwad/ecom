@@ -9,10 +9,36 @@
 
     <script src="bower_components/angular-material/angular-material.min.js"></script>
 
+    <script src="bower_components/owl.carousel/dist/owl.carousel.js"></script>
+
     <script src="assets/js/app.js"></script>
 
     <!----------------------------------- SCRIPTS ----------------------------------->
+    
+    {literal}
+    <script>
+        $(document).ready(function() {
+ 
+          $("#owl-demo").owlCarousel({
 
+              navigation : false, // Show next and prev buttons
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              //singleItem:true
+
+              // "singleItem:true" is a shortcut for:
+               items : 1, 
+               //itemsDesktop : true,
+              // itemsDesktopSmall : false,
+              // itemsTablet: false,
+              // itemsMobile : false
+
+          });
+
+        });
+    
+    </script>
+    {/literal}
 
 </body>
 </html>

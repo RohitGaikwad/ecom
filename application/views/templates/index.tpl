@@ -1,36 +1,52 @@
 {include file="header.tpl" title="$title" name="main_title"}
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>{$title|capitalize}</h1>
-      </div>
+<div class="main-header">
+    <div class="row row-eq-height">
+    <div class="col-md-2 logo">
+        <img src="assets/images/logo.png">
     </div>
+    <div class="col-md-8 search-bar">
+
+    </div>
+    <div class="col-md-2">
+      <div class="cart-sign">
+          <i class="fa fa-lock"></i>
+            Login |
+          <i class="fa fa-shopping-cart"></i>
+              Cart
+        </div>
+    </div>
+    </div>
+    <div class="container menu-bar">
+
+        <ul id="header-main-menu" class="row menu">
+            <li class="active">
+                <a href="#">
+                    What is Company?
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    page 2
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    page 3 
+                </a>
+            </li>
+        </ul>
+        </div>
+</div>
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="assets/images/banner_green.jpg" alt="banner"></div>
+  <div class="item"><img src="assets/images/banner_green.jpg" alt="banner"></div>
+  <div class="item"><img src="assets/images/banner_green.jpg" alt="banner"></div>
+ 
+</div>
+
 
     <div class="container">
  <div class="row">
@@ -82,15 +98,39 @@
         </p>
       </md-card-content>
 </md-card>
-        <div class="main-footer">
-          <hr>
-          <footer>
-            <p>&copy; 2015 Company, Inc.</p>
-          </footer>
-        </div>
+
     </div> <!-- /container -->
 
+        <div class="main-footer">
+<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-7">
+            <h3 class="footer-title">Subscribe</h3>
+            <p>Do you like this freebie? Want to get more stuff like this?<br>
+              Subscribe to designmodo news and updates to stay tuned on great designs.<br>
 
+            </p>
+
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Company</h3>
+              <ul>
+                <li>Tons of Basic and Custom UI Elements</li>
+                <li>A Lot of Useful Samples</li>
+                <li>More Vector Icons and Glyphs</li>
+                <li>Pro Color Swatches</li>
+                <li>Bootstrap Based HTML/CSS/JS Layout</li>
+              </ul>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+        </div>
 
 
 {include file="footer.tpl"}

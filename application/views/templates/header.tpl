@@ -8,8 +8,12 @@
       
     <!----------------------------------- STYLESHEETS ----------------------------------->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">  
     <link href="bower_components/angular-material/angular-material.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">  
+    <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
+    <link href="bower_components/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet"><!-- Default Theme -->
+    <link href='https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway|Noto+Sans|Alegreya+Sans|Indie+Flower|Shadows+Into+Light|Pacifico|Dancing+Script|Satisfy' rel='stylesheet' type='text/css'>
     <!----------------------------------- STYLESHEETS ----------------------------------->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
