@@ -1,6 +1,6 @@
 {
-  "name": "bower",
-  "version": "1",
+  "name": "front end dependecies",
+  "version": "1.2",
   "homepage": "https://github.com/RohitGaikwad/ecom",
   "authors": [
     "RohitGaikwad <rohitgaikwad3991@gmail.com>"
@@ -22,6 +22,15 @@
     "angular": "~1.4.8",
     "bootstrap": "~3.3.6",
     "animate.css": "~3.5.0",
-    "jquery": "~2.1.4"
-  }
+    "jquery": "~2.1.4",
+    "font-awesome": "~2.1.4",
+    "font-awesome": "fontawesome#~4.5.0"
+  },
+  "keywords": [
+    "front",
+    "end"
+  ]
 }
+
+
+
